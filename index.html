@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Raffaele Cannarsa</title>
+    <link rel="stylesheet" href="cv_style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <!-- Navbar fissa con ancoraggio alle sezioni -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <a href="#profilo" class="nav-link">Profilo</a>
+                <a href="#formazione" class="nav-link">Formazione</a>
+                <a href="#esperienze" class="nav-link">Esperienze</a>
+                <a href="#competenze" class="nav-link">Competenze</a>
+                <a href="#progetti" class="nav-link">Progetti</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header con effetto particellare e animazione di scrittura -->
+    <div class="header">
+        <div class="container header-content">
+            <div class="profile-info">
+                <h1 class="name">Raffaele Cannarsa</h1>
+                <p>Laureato in Statistica, professionista analitico ed empatico</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <span>+39 346 029 7959</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>cannarsa.raffaele.01@gmail.com</span>
+                    </div>
+                </div>
+                <!-- Pulsante per scaricare il CV in PDF -->
+                <a href="Raffaele_Cannarsa_CV.pdf" class="download-btn" download>Scarica CV in PDF</a>
+                <div class="name-underline"></div>
+            </div>
+        </div>
+        <!-- Gli elementi particellari saranno aggiunti qui tramite JavaScript -->
+    </div>
+
+    <div class="container content-wrapper">
+        <section class="section" id="profilo">
+            <h2 class="section-title">Profilo</h2>
+            <p>Laureato in Statistica, sono un professionista altamente preciso ed empatico. La mia formazione accademica mi ha dotato di solide competenze analitiche e di problem solving, mentre la mia natura empatica mi consente di comprendere appieno le esigenze degli altri. Capacità di lavorare sia in autonomia che in team, con attenzione ai dettagli e flessibilità per adattarmi a diversi contesti lavorativi.</p>
+        </section>
+
+        <section class="section" id="formazione">
+            <h2 class="section-title">Formazione Accademica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2019 - 2023</div>
+                    <div class="timeline-title">Università di Roma La Sapienza</div>
+                    <div class="timeline-content">Laurea in Statistica, Economia e Finanza</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2014 - 2019</div>
+                    <div class="timeline-title">Liceo Scientifico Nomentano</div>
+                    <div class="timeline-content">Diploma di scuola superiore</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2011 - 2020</div>
+                    <div class="timeline-title">British School Group</div>
+                    <div class="timeline-content">Studio della lingua inglese con insegnati madrelingua, certificati fino al Proficiency</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="esperienze">
+            <h2 class="section-title">Esperienze Lavorative</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-title">Decathlon</div>
+                    <div class="timeline-content">Assistenza alle vendite, gestione della merce in arrivo e iniziative sulla riorganizzazione generale degli spazi per mettere in risalto determinati prodotti.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-title">Vitha Group</div>
+                    <div class="timeline-content">Come addetto alle vendite, ho fissato appuntamenti, effettuato colloqui di presentazione dei prodotti, predisposto la documentazione amministrativa relativa alla vendita.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018</div>
+                    <div class="timeline-title">Stage Linguistico a Dublino (ASL)</div>
+                    <div class="timeline-content">Ideazione di sondaggi da sottoporre ai locali tramite interviste svolte in inglese e simulazione di campagne pubblicitarie.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2017</div>
+                    <div class="timeline-title">Progetto "MARINA" del CNR (ASL)</div>
+                    <div class="timeline-content">Produzione di video per sensibilizzare la popolazione riguardo ai problemi ambientali, utilizzo di questionari e interviste per indagare il livello di conoscenza generale e partecipazione ad un World Café.</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2017</div>
+                    <div class="timeline-title">International Chess Festival (ASL)</div>
+                    <div class="timeline-content">Allestimento e sorveglianza delle sale da gioco. Promozione e vendita della merce sponsorizzata dall'evento. Info point e relazioni con il pubblico internazionale.</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="competenze">
+            <h2 class="section-title">Competenze</h2>
+            <div class="skills">
+                <div class="skill-category">
+                    <h3 class="skill-title">Lingue</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Italiano</span>
+                            <span>Madrelingua</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Inglese</span>
+                            <span>Proficiency</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="skill-title">Capacità Professionali</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Analisi Statistica</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Problem Solving</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Lavoro in Team</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="skill-category">
+                    <h3 class="skill-title">Competenze Statistiche</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>RStudio</span>
+                            <span>Avanzato</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SAS</span>
+                            <span>Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MySQL</span>
+                            <span>Intermedio</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="skill-category">
+                    <h3 class="skill-title">Competenze Informatiche</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>C</span>
+                            <span>Avanzato</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML/CSS</span>
+                            <span>Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PHP</span>
+                            <span>Intermedio</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>Base</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sezione per i progetti con card interattive -->
+        <section class="section" id="progetti">
+            <h2 class="section-title">Progetti</h2>
+            <p>I miei progetti sviluppati alla scuola 42.</p>
+            <div class="projects-grid">
+            <!-- Progetti 42 -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>libft</h3>
+                        <p>Creazione da zero di una libreria C robusta con oltre 40 funzioni essenziali, padroneggiando gestione della memoria e strutture dati fondamentali.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>ft_printf</h3>
+                        <p>Ricostruzione completa della funzione printf() di C, implementando un sofisticato sistema di parsing e gestione di formati di output con precisione millimetrica.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>get_next_line</h3>
+                        <p>Algoritmo avanzato per la lettura ottimizzata di file che bilancia perfettamente efficienza e gestione della memoria, anche con file di dimensioni massive.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>born_2_be_root</h3>
+                        <p>Architettura e configurazione di un sistema Linux enterprise-grade con hardening avanzato, implementando protocolli di sicurezza a livello professionale.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>pipex</h3>
+                        <p>Masterizzazione delle tecniche di Inter-Process Communication di UNIX, orchestrando pipeline di processi con gestione impeccabile dei flussi di dati e delle risorse di sistema.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>fractol</h3>
+                        <p>Engine grafico real-time per la generazione di frattali matematici complessi con interattività fluida, ottimizzato per massime performance e precisione visiva.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Raffaele Cannarsa - Curriculum Vitae</p>
+        </div>
+    </footer>
+
+    <!-- Pulsante per cambiare tema -->
+    <button id="theme-toggle" title="Cambia tema">🌓</button>
+
+    <!-- Collegamento allo script JavaScript esterno -->
+    <script src="script.js"></script>
+</body>
+</html>
